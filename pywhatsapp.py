@@ -25,5 +25,3 @@ def sendimg(groupOrNumber, pathToImg, imgMsg):
         pywhatkit.sendwhats_image(local_numbers[groupOrNumber], pathToImg, imgMsg, 10, True, 5)
     except:
         pywhatkit.sendwhats_image(local_groups[groupOrNumber], pathToImg, imgMsg, 10, True, 5)
-
-sendtogroup("Nokepa", "test")
